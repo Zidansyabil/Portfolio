@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <link rel="icon" href="img/logo.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body class=" bg-black text-slate-100 font-poppins">
+
+    <div class="relative lg:hidden z-50">
+        <nav class="w-full fixed bottom-0">
+            <div class="rounded-tr-2xl rounded-tl-2xl px-8 py-5 border border-abuborder bg-abuterang">
+                <div class="flex justify-center lg:justify-normal">
+                    <h1 class="mx-3"><a href="#" class="hover:text-indigo-500 focus:text-indigo-500 transition duration-200 nav-link" data-target="About">About</a></h1>
+                    <h1 class="mx-3"><a href="#" class="hover:text-indigo-500 focus:text-indigo-500 transition duration-200 nav-link" data-target="Resume">Resume</a></h1>
+                    <h1 class="mx-3"><a href="#" class="hover:text-indigo-500 focus:text-indigo-500 transition duration-200 nav-link" data-target="Portfolio">Portfolio</a></h1>
+                    <h1 class="mx-3"><a href="#" class="hover:text-indigo-500 focus:text-indigo-500 transition duration-200 nav-link" data-target="Contact">Contact</a></h1>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="sm:px-20 sm:py-10 md:px-32 md:py-12 lg:px-20 lg:py-10 p-5">
+        <!-- Sidebar Start -->
+    
+        <div class="lg:w-64 lg:fixed ">
+            <div class="lg:px-5 p-5 border border-abuborder rounded-2xl bg-abuabu">
+                <div class="flex lg:flex-col items-center">
+                    <div>
+                        <img src="img/profile.png" alt="" class="lg:w-32 w-20 rounded-xl border border-abuborder">
+                    </div>
+    
+                    <div class="ml-3 lg:ml-0 lg:text-center">
+                        <h1 class="font-semibold text-center text-xl lg:mt-7 cursor-default">Alfath Zidansyabil</h1>
+                    
+                        <div class="lg:mt-3 mt-2">
+                            <p><span class="text-xs px-3 py-1 lg:px-4 lg:py-1 rounded-lg bg-abuborder cursor-default">Web Developer</span></p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="border-b-2 border-abuborder px-10 cursor-default"><h1>ㅤ</h1></div>
+    
+                <div class="mt-5">
+                    <div class="flex items-center">
+                        <h1><i class="fa-solid fa-envelope text-indigo-500 lg:p-3 p-2 bg-abuterang rounded-lg"></i></h1>
+                        <div class="lg:ml-2 ml-4">
+                            <h1 class="text-xs text-gray-400 cursor-default">EMAIL</h1>
+                            <h2 class="text-sm"><a href="mailto:azidansyabil@gmail.com">azidansyabil@gmail.com</a></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-5">
+                    <div class="flex items-center">
+                        <h1><i class="fa-solid fa-phone text-indigo-500 lg:p-3 p-2 bg-abuterang rounded-lg"></i></h1>
+                        <div class="lg:ml-2 ml-4">
+                            <h1 class="text-xs text-gray-400 cursor-default">PHONE</h1>
+                            <h2 class="text-sm cursor-default">+62 896-3<span class="underline text-slate-100 hover:text-slate-300"><a href="https://www.youtube.com/watch?v=xvFZjo5PgG0&ab_channel=Duran">...See More</a></span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-5">
+                    <div class="flex items-center">
+                        <h1><i class="fa-solid fa-location-crosshairs text-indigo-500 lg:p-3 p-2 bg-abuterang rounded-lg"></i></h1>
+                        <div class="lg:ml-2 ml-4">
+                            <h1 class="text-xs text-gray-400 cursor-default">LOCATION</h1>
+                            <h2 class="text-sm cursor-default">Jatimelati, Kota Bekasi, Indonesia</h2>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="border-b-2 border-abuborder px-10 lg:hidden"><h1>ㅤ</h1></div>
+    
+                <div class="flex lg:justify-center lg:mt-7 mt-4 text-gray-400">
+                    <h1><a href="https://www.instagram.com/alfaatt.z/" target="_blank"><i class="mx-2 fa-brands fa-instagram hover:text-indigo-500 transition duration-200"></i></a></h1>
+                    <h1><a href="https://github.com/Zidansyabil" target="_blank"><i class="mx-2 fa-brands fa-github hover:text-indigo-500 transition duration-200"></i></a></h1>
+                    <h1><a href="https://www.youtube.com/@alfathzidansyabil7916" target="_blank"><i class="mx-2 fa-brands fa-youtube hover:text-indigo-500 transition duration-200"></i></a></h1>
+                    <h1><a href="https://www.linkedin.com/in/alfath-zidansyabil-131529315/" target="_blank"><i class="mx-2 fa-brands fa-linkedin hover:text-indigo-500 transition duration-200"></i></a></h1>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Sidebar End -->
+    
+        <!-- Main Start -->
+    
+        <main class="lg:ml-72 lg:mt-0 mt-5 lg:mb-0 mb-16 rounded-2xl bg-abuabu border border-abuborder p-3 lg:relative">
+    
+            <nav class="absolute top-0 right-0 hidden lg:block ">
+                <div class="rounded-tr-2xl rounded-bl-2xl px-8 py-3 border border-abuborder bg-abuterang">
+                    <div class="flex justify-center lg:justify-normal">
+                        <h1 class="mx-5"><a href="#" class="focus:text-indigo-500 hover:text-indigo-500 transition duration-200 nav-link" data-target="About">About</a></h1>
+                        <h1 class="mx-5"><a href="#" class="focus:text-indigo-500 hover:text-indigo-500 transition duration-200 nav-link" data-target="Resume">Resume</a></h1>
+                        <h1 class="mx-5"><a href="#" class="focus:text-indigo-500 hover:text-indigo-500 transition duration-200 nav-link" data-target="Portfolio">Portfolio</a></h1>
+                        <h1 class="mx-5"><a href="#" class="focus:text-indigo-500 hover:text-indigo-500 transition duration-200 nav-link" data-target="Contact">Contact</a></h1>
+                    </div>
+                </div>
+            </nav>
+    
+            <!-- About Section -->
+            <div id="About" class="lg:p-5 p-1 page opacity-100 transition-opacity duration-400">
+                <div>
+                    <h1 class="text-3xl font-bold cursor-default">About Me</h1>
+                    <h1 class="w-8 h-1 lg:mt-5 mt-2 rounded-full bg-indigo-500"></h1>
+    
+                    <p class="mt-5 text-gray-300 cursor-default">
+                        Saya adalah seorang siswa di SMKN 9 Bekasi, yang mengambil jurusan Sistem Informasi Jaringan dan Aplikasi (SIJA). Dengan latar belakang pendidikan ini, Saya telah mengembangkan pemahaman mendalam dalam berbagai aspek teknologi informasi, termasuk pengembangan aplikasi dan manajemen jaringan. Saya memiliki ketertarikan yang kuat terhadap dunia teknologi, khususnya dalam pengembangan perangkat lunak dan website.
+                        <br>
+                        <br>
+                        Selama bersekolah, Saya telah terlibat berbagai proyek dalam pemrograman dan penyelesaian masalah teknis. Saya selalu bersemangat untuk mengeksplorasi teknologi baru dan menerapkan inovasi dalam setiap proyek yang saya kerjakan. Dengan keingintahuan yang besar dan kemampuan teknis yang terus diasah, Saya bercita-cita menjadi bagian dari industri teknologi yang berkembang pesat, berkontribusi dalam menciptakan aplikasi berkualitas dan infrastruktur jaringan yang andal.
+                    </p>
+                </div>
+    
+                <div class="mt-5">
+                    <h1 class="text-xl font-bold cursor-default">What i'm doing</h1>
+    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mt-5">
+                        <div class="bg-abuterang rounded-xl border border-abuborder">
+                            <div class="p-5">
+    
+                                <div class="flex justify-center">
+                                    <img src="img/icon/web-design.png" alt="" class="w-14">
+                                </div>
+    
+                                <div class="text-center">
+                                    <h1 class="font-bold mt-2 sm:mt-0 cursor-default">Web Design</h1>
+    
+                                    <p class="text-gray-300 mt-2 cursor-default">Menciptakan website yang tidak hanya menarik secara visual, tetapi juga intuitif dan mudah digunakan.</p>
+                                </div>
+    
+                            </div>
+                        </div>
+                        <div class="bg-abuterang rounded-xl border border-abuborder">
+                            <div class="p-5">
+    
+                                <div class="flex justify-center">
+                                    <img src="img/icon/coding.png" alt="" class="w-14">
+                                </div>
+    
+                                <div class="text-center">
+                                    <h1 class="font-bold mt-2 sm:mt-0 cursor-default">Web development</h1>
+    
+                                    <p class="text-gray-300 mt-2 cursor-default">Membangun dan merancang situs web yang responsif, fungsional, dan modern.</p>
+                                </div>
+    
+                            </div>
+                        </div>
+                        <div class="bg-abuterang rounded-xl border border-abuborder">
+                            <div class="p-5">
+    
+                                <div class="flex justify-center">
+                                    <img src="img/icon/network.png" alt="" class="w-14">
+                                </div>
+    
+                                <div class="text-center">
+                                    <h1 class="font-bold mt-2 sm:mt-0 cursor-default">Network Engineering</h1>
+    
+                                    <p class="text-gray-300 mt-2 cursor-default">Merancang, mengimplementasi, mengelola jaringan dengan fokus kestabilan, keamanan, dan efisiensi..</p>
+                                </div>
+    
+                            </div>
+                        </div>
+                        <div class="bg-abuterang rounded-xl border border-abuborder">
+                            <div class="p-5">
+    
+                                <div class="flex justify-center">
+                                    <img src="img/icon/iot.png" alt="" class="w-14">
+                                </div>
+    
+                                <div class="text-center">
+                                    <h1 class="font-bold mt-2 sm:mt-0 cursor-default">Internet of Things</h1>
+    
+                                    <p class="text-gray-300 mt-2 cursor-default">Merancang solusi IoT, menghubungkan perangkat, mengotomasi, dan menganalisis data real-time.</p>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About Section -->
+
+            <!-- Resume Section -->
+             <div id="Resume" class="lg:p-5 p-1 page opacity-0 transition-opacity duration-400 hidden">
+                <div>
+                    <h1 class="text-3xl font-bold cursor-default">Resume</h1>
+                    <h1 class="w-8 h-1 lg:mt-5 mt-2 rounded-full bg-indigo-500"></h1>
+                </div>
+    
+                <div class="mt-5">
+                    <div class="flex items-center">
+                        <h1 class="lg:p-3 p-1 bg-abuterang border border-abuborder rounded-xl mr-7"><i class="fa-solid fa-school"></i></h1>
+                        <h1 class="lg:text-2xl text-xl font-bold cursor-default">Education</h1>
+                    </div>
+                    <div class="flex items-center">
+                        <h1 class="lg:p-5 p-3 mr-7"><i class="fa-solid fa-circle fa-2xs"></i></h1>
+                        <div class="pt-5">
+                            <h1 class="lg:text-lg text-sm font-bold cursor-default">SMKN 9 Kota Bekasi</h1>
+                            <h2 class="lg:text-base text-sm text-indigo-500 cursor-default">2021 - 2025</h2>
+                            <p class="lg:text-sm text-xs cursor-default text-[#c4c4c4]">Mendalami keterampilan dalam pengembangan Website, pemrograman, Internet of Things dan Memperoleh pemahaman tentang jaringan komputer, konfigurasi dan manajemen jaringan, keamanan jaringan, serta dasar-dasar sistem komputer.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center">
+                        <h1 class="lg:p-5 p-3 mr-7"><i class="fa-solid fa-circle fa-2xs"></i></h1>
+                        <div class="pt-5">
+                            <h1 class="lg:text-lg text-sm font-bold cursor-default">SMPN 29 Kota Bekasi</h1>
+                            <h2 class="lg:text-base text-sm text-indigo-500 cursor-default">2018 - 2021</h2>
+                            <p class="lg:text-sm text-xs cursor-default text-[#c4c4c4]">Melanjutkan pendidikan dengan menumbuhkan minat lebih dalam pada teknologi dan ilmu komputer, menjadi dasar pilihan jurusan di SMK.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center">
+                        <h1 class="lg:p-5 p-3 mr-7"><i class="fa-solid fa-circle fa-2xs"></i></h1>
+                        <div class="pt-5">
+                            <h1 class="lg:text-lg text-sm font-bold cursor-default">SDN Jakasetia IV</h1>
+                            <h2 class="lg:text-base text-sm text-indigo-500 cursor-default">2012 - 2018</h2>
+                            <p class="lg:text-sm text-xs cursor-default text-[#c4c4c4]">Menyelesaikan pendidikan dasar dengan fokus pada pembentukan dasar-dasar pengetahuan dan keterampilan belajar, serta minat awal dalam teknologi.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-7">
+                    <div class="flex items-center">
+                        <h1 class="lg:p-3 p-1 bg-abuterang border border-abuborder rounded-xl mr-7"><i class="fa-solid fa-book-open"></i></h1>
+                        <h1 class="lg:text-2xl text-xl font-bold cursor-default">Experience</h1>
+                    </div>
+                    <div class="flex items-center">
+                        <h1 class="lg:p-5 p-3 mr-7"><i class="fa-solid fa-circle fa-2xs"></i></h1>
+                        <div class="pt-5">
+                            <h1 class="lg:text-lg text-sm font-bold cursor-default">Golden English Jatibening</h1>
+                            <h2 class="lg:text-base text-sm text-indigo-500 cursor-default">2024 - 2025</h2>
+                            <p class="lg:text-sm text-xs cursor-default text-[#c4c4c4]">PKL di bidang IT Fullstack, Membangun aplikasi dari sisi frontend hingga backend. Di bagian frontend, saya menggunakan teknologi seperti HTML, CSS, JavaScript, dan Tailwind CSS untuk menciptakan antarmuka pengguna yang responsif dan menarik. Di bagian backend, saya mengembangkan aplikasi dengan PHP dan Laravel.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center">
+                        <h1 class="lg:p-5 p-3 mr-7"><i class="fa-solid fa-circle fa-2xs"></i></h1>
+                        <div class="pt-5">
+                            <h1 class="lg:text-lg text-sm font-bold cursor-default">OSIS SMKN 9 Bekasi</h1>
+                            <h2 class="lg:text-base text-sm text-indigo-500 cursor-default">2021 - 2024</h2>
+                            <p class="lg:text-sm text-xs cursor-default text-[#c4c4c4]">Mengelola media sosial untuk meningkatkan keterlibatan dan menyampaikan informasi penting kepada siswa dan guru. Membuat konten yang menarik, serta mendesain berbagai materi visual, termasuk post, banner, dan poster.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center">
+                        <h1 class="lg:p-5 p-3 mr-7"><i class="fa-solid fa-circle fa-2xs"></i></h1>
+                        <div class="pt-5">
+                            <h1 class="lg:text-lg text-sm font-bold cursor-default">MetaTech 9</h1>
+                            <h2 class="lg:text-base text-sm text-indigo-500 cursor-default">2022 - 2023</h2>
+                            <p class="lg:text-sm text-xs cursor-default text-[#c4c4c4]">Sebagai pengajar di Divisi Front-End MetaTech, Saya bertanggung jawab untuk membimbing siswa dalam memahami dasar-dasar dan keterampilan lanjutan dalam pengembangan User Interface (UI).</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-5">
+    
+                    <h1 class="font-bold lg:text-2xl text-xl cursor-default">My Skill</h1>
+                    <div class="p-5 mt-3 bg-abuterang border border-abuborder rounded-lg grid gap-7"> 
+                        <div>
+                            <h1 class="mb-2 text-lg font-semibold cursor-default">Front-End <span class="text-[#868687]">80%</span></h1>
+                            <div class="w-full h-3 bg-slate-200 rounded-full overflow-hidden border border-abuborder">
+                                <div class="bg-indigo-500 h-full rounded-full progress-bar-animation-1"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <h1 class="mb-2 text-lg font-semibold cursor-default">Back-End <span class="text-[#868687]">40%</span></h1>
+                            <div class="w-full h-3 bg-slate-200 rounded-full overflow-hidden border border-abuborder">
+                                <div class="bg-indigo-500 h-full rounded-full progress-bar-animation-2"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <h1 class="mb-2 text-lg font-semibold cursor-default">Design <span class="text-[#868687]">70%</span></h1>
+                            <div class="w-full h-3 bg-slate-200 rounded-full overflow-hidden border border-abuborder">
+                                <div class="bg-indigo-500 h-full rounded-full progress-bar-animation-3"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Resume Section -->
+
+            <!-- Portfolio Section -->
+            <div id="Portfolio" class="lg:p-5 p-1 page opacity-0 transition-opacity duration-400 hidden">
+                <div>
+                    <h1 class="text-3xl font-bold cursor-default">Portfolio</h1>
+                    <h1 class="w-8 h-1 lg:mt-5 mt-2 rounded-full bg-indigo-500"></h1>
+                </div>
+    
+                <div class="mt-5">
+    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mt-5">
+                        <div>
+                            <div class="bg-[#e8dfca] rounded-xl border border-abuborder overflow-hidden cursor-pointer image-container">
+                                <img src="img/webnetflix.png" alt="" class="rounded-xl transition duration-300 hover:scale-110 small-image">
+                            </div>
+                            <div>
+                                <h1 class="ml-3 font-semibold cursor-default">Website <span class="text-[#ba1c1c]">Netflix</span></h1>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="bg-[#e8dfca] rounded-xl border border-abuborder overflow-hidden cursor-pointer image-container">
+                                <img src="img/websekolah.png" alt="" class="rounded-xl transition duration-300 hover:scale-110 small-image">
+                            </div>
+                            <div>
+                                <h1 class="ml-3 font-semibold cursor-default">Website <span class="text-[#7e8df2]">Sekolah</span></h1>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="bg-white rounded-xl border border-abuborder overflow-hidden cursor-pointer image-container">
+                                <img src="img/Web-Take.png" alt="" class="rounded-xl transition duration-300 hover:scale-110 small-image">
+                            </div>
+                            <div>
+                                <h1 class="ml-3 font-semibold cursor-default">Website <span class="text-[#945c40]">TAKE</span></h1>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="bg-white rounded-xl border border-abuborder overflow-hidden cursor-pointer image-container">
+                                <img src="img/webrrq.png" alt="" class="rounded-xl transition duration-300 hover:scale-110 small-image">
+                            </div>
+                            <div>
+                                <h1 class="ml-3 font-semibold cursor-default">Website <span class="text-[#f5ad38]">RRQ</span></h1>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="bg-[#404eed] rounded-xl border border-abuborder overflow-hidden cursor-pointer image-container">
+                                <img src="img/webdiscord.png" alt="" class="rounded-xl transition duration-300 hover:scale-110 small-image">
+                            </div>
+                            <div>
+                                <h1 class="ml-3 font-semibold cursor-default">Website <span class="text-[#404eed]">Discord</span></h1>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="bg-[#e8dfca] rounded-xl border border-abuborder overflow-hidden cursor-pointer image-container">
+                                <img src="img/webportfolio.png" alt="" class="rounded-xl transition duration-300 hover:scale-110 small-image">
+                            </div>
+                            <div>
+                                <h1 class="ml-3 font-semibold cursor-default">Website <span class="text-[#e8dfca]">Portfolio v1</span></h1>
+                            </div>
+                        </div>
+
+                        <!-- Popup container -->
+                        <div id="image-popup" class="popup">
+                            <span class="close-popup">&times;</span>
+                            <img class="popup-content" id="popup-image">
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio Section -->
+
+            <!-- Contact Section -->
+            <div id="Contact" class="lg:p-5 p-1 page opacity-0 transition-opacity duration-400 hidden">
+                <div>
+                    <h1 class="text-3xl font-bold cursor-default">Contact</h1>
+                    <h1 class="w-8 h-1 lg:mt-5 mt-2 rounded-full bg-indigo-500"></h1>
+                </div>
+    
+                <div class="bg-abuabu rounded-lg shadow-lg mt-7 border-2 border-abuborder">
+                    <div class="relative w-full overflow-hidden pb-[56.25%] map-container">
+                        <iframe 
+                            class="absolute top-0 left-0 w-full h-full rounded-lg"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15862.41577273556!2d106.92091917986313!3d-6.315643571152216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6992bf5c290c3d%3A0x24c077dc23e3df9!2sJatimelati%2C%20Kec.%20Pd.%20Melati%2C%20Kota%20Bks%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1731315292367!5m2!1sid!2sid" width="400" height="300" loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+
+                <div class="mt-7">
+                    <h1 class="font-bold text-2xl cursor-default">Contact Form</h1>
+                    <div class="w-full lg:flex">
+                        <input type="text" class="bg-abuabu border border-abuterang rounded-xl py-2 px-4 w-full lg:w-1/2 h-12 mt-5 lg:mr-5 focus:outline-none focus:ring-abuborder focus:ring-1" placeholder="Full Name">
+                        <input type="email" class="bg-abuabu border border-abuterang rounded-xl py-2 px-4 w-full lg:w-1/2 h-12 mt-5 lg:ml-5 focus:outline-none focus:ring-abuborder focus:ring-1" placeholder="Email Address">
+                    </div>
+                    <div class="w-full mt-5">
+                        <textarea type="text" placeholder="Your Message" class="w-full bg-abuabu border border-abuterang rounded-xl py-2 px-4 focus:outline-none focus:ring-abuborder focus:ring-1 h-32"></textarea>
+                    </div>
+                    <div class="w-full mt-3">
+                        <button class="text-base font-semibold text-indigo-500 bg-abuabu border border-abuborder py-3 px-8 lg:mx-3 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-200">Send Message</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Contact Section -->
+
+        </main>
+        <!-- Main End -->
+    </div>
+
+    <script>
+        const links = document.querySelectorAll('.nav-link');
+        const pages = document.querySelectorAll('.page');
+      
+        links.forEach(link => {
+          link.addEventListener('click', (e) => {
+            e.preventDefault();
+      
+            const target = link.dataset.target;
+      
+            pages.forEach(page => {
+              if (!page.classList.contains('hidden')) {
+                page.classList.add('opacity-0');
+                setTimeout(() => page.classList.add('hidden'), 400);
+              }
+            });
+      
+            const targetPage = document.getElementById(target);
+            setTimeout(() => {
+              targetPage.classList.remove('hidden');
+              setTimeout(() => targetPage.classList.remove('opacity-0'), 10);
+            }, 400);
+          });
+        });
+      </script>
+      <script>
+        // Dapatkan semua elemen yang diperlukan
+        const imageContainers = document.querySelectorAll('.image-container');
+        const popup = document.getElementById('image-popup');
+        const popupImage = document.getElementById('popup-image');
+        const closeBtn = document.querySelector('.close-popup');
+
+        // Fungsi untuk menutup popup
+        function closePopup() {
+            popup.style.display = 'none';
+        }
+
+        // Tambahkan event listener ke setiap kontainer gambar
+        imageContainers.forEach(container => {
+            container.addEventListener('click', function() {
+                // Dapatkan gambar dari kontainer yang diklik
+                const smallImage = this.querySelector('.small-image');
+                
+                // Tampilkan popup dan atur sumber gambar
+                popup.style.display = 'block';
+                popupImage.src = smallImage.src;
+            });
+        });
+
+        // Tutup popup saat tombol close diklik
+        closeBtn.addEventListener('click', closePopup);
+
+        // Tutup popup jika diklik di luar gambar
+        popup.addEventListener('click', function(event) {
+            if (event.target === popup) {
+                closePopup();
+            }
+        });
+
+        // Tambahkan event listener untuk tombol ESC
+        document.addEventListener('keydown', function(event) {
+            // Periksa apakah tombol yang ditekan adalah ESC (key code 27)
+            if (event.key === 'Escape' || event.keyCode === 27) {
+                // Jika popup sedang ditampilkan, tutup popup
+                if (popup.style.display === 'block') {
+                    closePopup();
+                }
+            }
+        });
+    </script>
+      
+    
+</body>
+</html>
